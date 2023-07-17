@@ -8,6 +8,7 @@ export default function Home() {
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
+          <span> ==== Test</span>
         </p>
         <div>
           <a
@@ -29,14 +30,14 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        {/* <Image
+        <Image
           className={styles.logo}
           src="/next.svg"
           alt="Next.js Logo"
           width={180}
           height={37}
           priority
-        /> */}
+        />
       </div>
       <div className={styles.center}>Jonathan Project from Ted</div>
 
